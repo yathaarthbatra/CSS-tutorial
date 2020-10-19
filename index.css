@@ -1,0 +1,115 @@
+/* to select the whole page we have to use in the body tag */
+body{
+        font-family: 'Montserrat',
+        sans-serif;
+        margin: 0;
+        
+}
+
+/* font-size: uses to size the font */
+/* .heading{
+    /* text-align: center; */
+    /* background: coral; */
+    /* background-image: url("/assets/images/tech.jpg");
+    margin: 30px;
+    padding: 30px;
+    color: white; */
+    /* border:5px solid goldenrod; */
+    /* border-radius: 10px; */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black; */
+/* } */
+/* text-align: uses to align the text 
+--left center -right
+
+
+ margin:spacing b/w the two elements 
+consider div as a container, so margin gives the space b/w the containers
+padding:it gives the space b/w the container and the content inside it
+
+
+border:size style color
+border-radius is used to change the angle of the box model
+width:used to increase the width of the container(px or 25% or 50% or 75% or 100%
+height:uses to increase the height of the container
+line height:uses to space b/w the lines in the paragraph
+
+background-image:url("path")
+along with this we also have to specify 3 more properties
+background-size:cover;
+background-position:center/bottom/up etc
+background-size:cover
+
+
+
+box-shadow:x-offest Y-offset blur-radius color;
+x-offset:+ve value on increasing increases the shadow to the right side of the container
+y-offset: -ve value on decreasing increases the shadow to the left side of the container
+blur-radius: It is in px/rem
+
+
+cursor:pointer whenever we hover over a container it changes the shape of cursor to pointed
+one
+
+overflow:hidden--hides the extra text
+overflow:scroll--makes a scroll bar
+
+opacity:used to transparent the container
+it ranges from 0 to 1
+
+Block level elements take full width of the page
+display:block(by default)
+display:inline(makes element inline i.e we can add one more inline elemnt beside it
+display:none-->removes the element 
+
+position:It always work when there is a parent child relationship
+
+
+*/
+.wrapper{
+    background: cadetblue;
+    margin: 50px;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    /* this enable the child to follow its top left rule acc to the parent 
+    not acc. to the web browser size
+    */
+}
+.child{
+    background: crimson;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    /* absolute means that it has now come out of Html flow */
+    /* It seams as this element dooesnt exist */
+    right: -15px;
+    top:235px;
+}
+/* position:fixed-->it means that it will be fitted acc. to the dimensions of the lft 
+right etc acc. to the browser definitions
+
+
+
+ zindex:it works as a layer,more value more layer height
+transition:background time(5s) ease;
+ease is one of the types
+
+hover is itself a class
+.wrapper:hover{
+    what happens after hover
+
+
+
+
+focus is also psuedo class
+.wrapper:focus{
+    if did focus what would be the shape
+}
+*/
+
+
+
