@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.container div{
+    background: royalblue;
+    color: white;
+     margin: 10px; 
+    padding: 10px;
+    
+    
+
+}
+.container{
+    display: flex;
+    margin: 30px;
+    /* height: 400px; */
+    /* align-items: stretch; */
+    /* align-items: is used to align the chilren
+    heiht acc. to the value given
+    ->stretch: means the same(defualt)
+    ->flex-start/end:It shifts to the start or end of the container
+    ->flex-center:It shifts the childs to the center
+    */
+
+    flex-direction: row;
+    /* it changews the orientation of the children */
+}
+/* To use flexbox we have to make a container class and children of it
+   Now when we do display:flex in the container class then the elements are
+   aligned in one line,they take the height of the container height(by default)
+
+
+   now children have also got the right to increase their width 
+   so in a particular child we can write flex:
+   by default:flex is 1 for all the children
+*/
+.item-1{
+    flex:2;
+}
+.item-2{
+flex:2;
+}
+.item-3{
+flex:2
+}
